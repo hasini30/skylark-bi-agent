@@ -1,0 +1,119 @@
+{
+  "board_id": "5030963290",
+  "table": "deals",
+  "fill_snapshot": {
+    "name": 1.0,
+    "Owner code": 0.9509,
+    "Client Code": 0.9942,
+    "Deal Status": 0.9971,
+    "Close Date (A)": 0.0751,
+    "Closure Probability": 0.2543,
+    "Masked Deal value": 0.4769,
+    "Tentative Close Date": 0.7803,
+    "Deal Stage": 1.0,
+    "Product deal": 0.5087,
+    "Sector/service": 0.9769,
+    "Created Date": 0.9913
+  },
+  "descriptions": {
+    "name": "Deal name/title text. Free text column (text). Populated in 346 of 346 rows (100%). Examples: Naruto, Sasuke, Sasuke.",
+    "Owner code": "The employee code of the person owning this deal. Code identifying the deal owner. Category column (text). Populated in 329 of 346 rows (95%). Allowed values: OWNER_001, OWNER_002, OWNER_003, OWNER_004, OWNER_005, OWNER_006, OWNER_007.",
+    "Client Code": "Code identifying the client company. Identifier column (text). Populated in 344 of 346 rows (99%). 199 distinct values, e.g. COMPANY089, COMPANY091, COMPANY124.",
+    "Deal Status": "The final status of the deal (e.g. Won, Lost). Overall deal status (Open, Won, Dead, etc.). Category column (text). Populated in 345 of 346 rows (100%). Allowed values: Open, On Hold, Deal Status, Dead, Won.",
+    "Close Date (A)": "The ACTUAL Close Date of the deal (when it was won/lost). Actual close date of the deal. Date column (date). Populated in 26 of 346 rows (8%). Mostly empty (92% missing) \u2014 treat any figure derived from it as covering a minority of records.",
+    "Closure Probability": "The percentage likelihood of closing this deal. Qualitative likelihood of closing (High/Medium/Low). Category column (text). Populated in 88 of 346 rows (25%). Allowed values: High, Medium, Low, Closure Probability. Mostly empty (75% missing) \u2014 treat any figure derived from it as covering a minority of records.",
+    "Masked Deal value": "The financial value/revenue of the deal. Monetary value of the deal. Monetary amount column (number). 165 of 346 rows carry a non-zero figure; 0 are zero, 181 blank. Mostly empty (52% missing) \u2014 treat any figure derived from it as covering a minority of records.",
+    "Tentative Close Date": "The TENTATIVE Close Date (projected by sales, not final). Expected close date of the deal. Date column (date). Populated in 270 of 346 rows (78%).",
+    "Deal Stage": "Sales pipeline stage of the deal. Category column (text). Populated in 346 of 346 rows (100%). 17 distinct values, e.g. B. Sales Qualified Leads, E. Proposal/Commercials Sent, D. Feasibility.",
+    "Product deal": "Product/service mix in the deal. Category column (text). Populated in 176 of 346 rows (51%). Allowed values: Service + Spectra, Pure Service, Spectra + DMO, Hardware, Dock + DMO + Spectra + Service, Dock + Spectra + Service, Dock + DMO + Spectra, Dock + DMO, Spectra Deal, Product deal.",
+    "Sector/service": "The business sector or service category. Industry sector or service line of the deal. Category column (text). Populated in 338 of 346 rows (98%). Allowed values: Mining, Powerline, Tender, Renewables, DSP, Railways, Construction, Security and Surveillance, Sector/service, Others, Aviation, Manufacturing.",
+    "Created Date": "Date the deal was created. Date column (date). Populated in 343 of 346 rows (99%)."
+  },
+  "reading": {
+    "name": {
+      "column": "name",
+      "meaning": "Deal name/title text.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Owner code": {
+      "column": "Owner code",
+      "meaning": "Code identifying the deal owner.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Client Code": {
+      "column": "Client Code",
+      "meaning": "Code identifying the client company.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Deal Status": {
+      "column": "Deal Status",
+      "meaning": "Overall deal status (Open, Won, Dead, etc.).",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Close Date (A)": {
+      "column": "Close Date (A)",
+      "meaning": "Actual close date of the deal.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Closure Probability": {
+      "column": "Closure Probability",
+      "meaning": "Qualitative likelihood of closing (High/Medium/Low).",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Masked Deal value": {
+      "column": "Masked Deal value",
+      "meaning": "Monetary value of the deal.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Tentative Close Date": {
+      "column": "Tentative Close Date",
+      "meaning": "Expected close date of the deal.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Deal Stage": {
+      "column": "Deal Stage",
+      "meaning": "Sales pipeline stage of the deal.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Product deal": {
+      "column": "Product deal",
+      "meaning": "Product/service mix in the deal.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Sector/service": {
+      "column": "Sector/service",
+      "meaning": "Industry sector or service line of the deal.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Created Date": {
+      "column": "Created Date",
+      "meaning": "Date the deal was created.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    }
+  },
+  "overrides": {}
+}

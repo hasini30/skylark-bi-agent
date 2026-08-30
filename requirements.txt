@@ -1,0 +1,7 @@
+streamlit>=1.62.0
+pandas>=3.0.5
+duckdb>=1.5.5
+pydantic>=2.13.5
+openai>=3.6.0
+requests>=2.34.2
+python-dotenv>=1.2.3

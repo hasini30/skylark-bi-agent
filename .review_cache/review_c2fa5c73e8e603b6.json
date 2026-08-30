@@ -1,0 +1,353 @@
+{
+  "board_id": "5030963283",
+  "table": "work_orders",
+  "fill_snapshot": {
+    "name": 1.0,
+    "Customer Name Code": 1.0,
+    "Serial #": 1.0,
+    "Nature of Work": 0.9318,
+    "Last executed month of recurring project": 0.0852,
+    "Execution Status": 0.9773,
+    "Data Delivery Date": 0.3295,
+    "Date of PO/LOI": 0.9943,
+    "Document Type": 0.9205,
+    "Probable Start Date": 0.8977,
+    "Probable End Date": 0.892,
+    "BD/KAM Personnel code": 0.9375,
+    "Sector": 1.0,
+    "Type of Work": 1.0,
+    "Is any Skylark software platform part of the client deliverables in this deal?": 0.9318,
+    "Last invoice date": 0.4943,
+    "latest invoice no.": 0.5,
+    "Amount in Rupees (Excl of GST) (Masked)": 0.9943,
+    "Amount in Rupees (Incl of GST) (Masked)": 1.0,
+    "Billed Value in Rupees (Excl of GST.) (Masked)": 0.642,
+    "Billed Value in Rupees (Incl of GST.) (Masked)": 1.0,
+    "Collected Amount in Rupees (Incl of GST.) (Masked)": 0.4432,
+    "Amount to be billed in Rs. (Exl. of GST) (Masked)": 1.0,
+    "Amount to be billed in Rs. (Incl. of GST) (Masked)": 1.0,
+    "Amount Receivable (Masked)": 1.0,
+    "AR Priority account": 0.0568,
+    "Quantity by Ops": 0.2443,
+    "Quantities as per PO": 0.9318,
+    "Quantity billed (till date)": 0.1307,
+    "Balance in quantity": 0.892,
+    "Invoice Status": 0.6364,
+    "Expected Billing Month": 0.0,
+    "Actual Billing Month": 0.3977,
+    "Actual Collection Month": 0.0,
+    "WO Status (billed)": 0.5795,
+    "Collection status": 0.0,
+    "Collection Date": 0.0,
+    "Billing Status": 0.1591
+  },
+  "descriptions": {
+    "name": "Work order or project name. Free text column (text). Populated in 176 of 176 rows (100%). Examples: Scooby-Doo, Appa, Sakura.",
+    "Customer Name Code": "Coded identifier of the client company. Identifier column (text). Populated in 176 of 176 rows (100%). 51 distinct values, e.g. WOCOMPANY_002, WOCOMPANY_038, WOCOMPANY_032.",
+    "Serial #": "Serial number often holding deal references. Unique serial identifier for the work order deal. Identifier column (text). Populated in 176 of 176 rows (100%). 176 distinct values, e.g. SDPLDEAL-075, SDPLDEAL-101, SDPLDEAL-002.",
+    "Nature of Work": "Type of engagement, e.g. one-time project or contract. Category column (text). Populated in 164 of 176 rows (93%). Allowed values: One time Project, Proof of Concept, Monthly Contract, Annual Rate Contract.",
+    "Last executed month of recurring project": "Most recent month the recurring project was executed. Month name column (text). Populated in 15 of 176 rows (9%). Allowed values: Dec, June, November, May, March. Mostly empty (91% missing) \u2014 treat any figure derived from it as covering a minority of records. Month names mix abbreviated and full forms; normalised to full names, with a companion ordinal column for chronological sorting.",
+    "Execution Status": "Current execution state of the work order. Category column (text). Populated in 172 of 176 rows (98%). Allowed values: Completed, Not Started, Executed until current month, Ongoing, Pause / struck, Partial Completed, Details pending from Client.",
+    "Data Delivery Date": "Date the deliverable data is due or delivered. Date column (date). Populated in 58 of 176 rows (33%). Mostly empty (67% missing) \u2014 treat any figure derived from it as covering a minority of records.",
+    "Date of PO/LOI": "Date the purchase order or LOI was issued. Date column (date). Populated in 175 of 176 rows (99%).",
+    "Document Type": "Kind of confirmation document received. Category column (text). Populated in 162 of 176 rows (92%). Allowed values: Purchase Order, LOA/LOI, Email Confirmation.",
+    "Probable Start Date": "Expected start date of the work. Date column (date). Populated in 158 of 176 rows (90%).",
+    "Probable End Date": "Expected end date of the work. Date column (date). Populated in 157 of 176 rows (89%).",
+    "BD/KAM Personnel code": "Coded owner responsible for the account. Category column (text). Populated in 165 of 176 rows (94%). Allowed values: OWNER_003, OWNER_002, OWNER_005, OWNER_001, OWNER_004, OWNER_008, OWNER_006.",
+    "Sector": "The business sector for this work order. Industry vertical of the work order. Category column (text). Populated in 176 of 176 rows (100%). Allowed values: Mining, Powerline, Renewables, Railways, Construction, Others.",
+    "Type of Work": "Service type performed, e.g. survey or inspection. Category column (text). Populated in 176 of 176 rows (100%). 36 distinct values, e.g. Raw images/videography, Powerline Inspection, Volumetric survey.",
+    "Is any Skylark software platform part of the client deliverables in this deal?": "Which Skylark software platforms are included in deliverables. Category column (text). Populated in 164 of 176 rows (93%). Allowed values: NONE, SPECTRA, DMO, SPECTRA + DMO.",
+    "Last invoice date": "Date of the most recent invoice raised. Date column (date). Populated in 87 of 176 rows (49%). Mostly empty (51% missing) \u2014 treat any figure derived from it as covering a minority of records.",
+    "latest invoice no.": "Identifier of the most recent invoice. Identifier column (text). Populated in 88 of 176 rows (50%). 86 distinct values, e.g. SDPL/FY25-26/916, SDPL/FY25-26/449, SDPL/FY25-26/359. Mostly empty (50% missing) \u2014 treat any figure derived from it as covering a minority of records.",
+    "Amount in Rupees (Excl of GST) (Masked)": "Total revenue of the work order, EXCLUDING GST (taxes). Deal value excluding GST. Monetary amount column (number). 169 of 176 rows carry a non-zero figure; 6 are zero, 1 blank.",
+    "Amount in Rupees (Incl of GST) (Masked)": "Total revenue of the work order, INCLUDING GST. Deal value including GST. Monetary amount column (number). 169 of 176 rows carry a non-zero figure; 7 are zero, 0 blank.",
+    "Billed Value in Rupees (Excl of GST.) (Masked)": "Amount billed so far, EXCLUDING GST. Amount billed so far excluding GST. Monetary amount column (number). 113 of 176 rows carry a non-zero figure; 0 are zero, 63 blank.",
+    "Billed Value in Rupees (Incl of GST.) (Masked)": "Amount billed so far, INCLUDING GST. Amount billed so far including GST. Monetary amount column (number). 113 of 176 rows carry a non-zero figure; 63 are zero, 0 blank. Zero appears to stand in for absence rather than a true zero.",
+    "Collected Amount in Rupees (Incl of GST.) (Masked)": "Amount physically collected from client, INCLUDING GST. Payment collected including GST. Monetary amount column (number). 78 of 176 rows carry a non-zero figure; 0 are zero, 98 blank. Mostly empty (56% missing) \u2014 treat any figure derived from it as covering a minority of records.",
+    "Amount to be billed in Rs. (Exl. of GST) (Masked)": "Remaining unbilled amount, EXCLUDING GST. Outstanding amount yet to be billed excluding GST. Monetary amount column (number). 106 of 176 rows carry a non-zero figure; 70 are zero, 0 blank. Zero appears to stand in for absence rather than a true zero.",
+    "Amount to be billed in Rs. (Incl. of GST) (Masked)": "Remaining unbilled amount, INCLUDING GST. Outstanding amount yet to be billed including GST. Monetary amount column (number). 106 of 176 rows carry a non-zero figure; 70 are zero, 0 blank. Zero appears to stand in for absence rather than a true zero.",
+    "Amount Receivable (Masked)": "Amount billed but not yet collected (Accounts Receivable). Outstanding amount owed per work order. Monetary amount column (number). 99 of 176 rows carry a non-zero figure; 77 are zero, 0 blank. Zero appears to stand in for absence rather than a true zero.",
+    "AR Priority account": "Flags accounts marked as collection priority. Category column (text). Populated in 10 of 176 rows (6%). Allowed values: Priority. Mostly empty (94% missing) \u2014 treat any figure derived from it as covering a minority of records.",
+    "Quantity by Ops": "Quantity recorded by operations for the work order. Quantity column (number). 43 of 176 rows carry a non-zero figure; 0 are zero, 133 blank. Mostly empty (76% missing) \u2014 treat any figure derived from it as covering a minority of records.",
+    "Quantities as per PO": "Quantities as per PO. NOTE: This is a dropdown containing strings, NOT numeric values. Contracted quantity stated on the purchase order. Quantity column (text). Populated in 164 of 176 rows (93%). 120 distinct values, e.g. 5360 HA, 4, 3000. 55% of values look numeric but the rest do not; kept as text. Values combine a number with a unit (au, acers, acr, acres, ha, ha, km, mw, months, rkm, rooftops, sites, towers, days, ha, images, km, location, mines, months, pillars, towers, units); split into companion value and unit columns \u2014 sum within a unit, never across.",
+    "Quantity billed (till date)": "Quantity invoiced to date. Quantity column (number). 23 of 176 rows carry a non-zero figure; 0 are zero, 153 blank. Mostly empty (87% missing) \u2014 treat any figure derived from it as covering a minority of records.",
+    "Balance in quantity": "Remaining quantity yet to be billed. Quantity column (number). 144 of 176 rows carry a non-zero figure; 13 are zero, 19 blank.",
+    "Invoice Status": "Billing progress of the work order. Category column (text). Populated in 112 of 176 rows (64%). Allowed values: Not billed yet, Fully Billed, Partially Billed, Billed- Visit 7, Billed- Visit 3, Stuck.",
+    "Expected Billing Month": "The month this is EXPECTED to be billed. Planned month of billing. Free text column (text). Populated in 0 of 176 rows (0%). Mostly empty (100% missing) \u2014 treat any figure derived from it as covering a minority of records.",
+    "Actual Billing Month": "The month this was ACTUALLY billed. Month when billing actually occurred. Month name column (text). Populated in 70 of 176 rows (40%). Allowed values: July, August, June, September, November, Dec, October. Mostly empty (60% missing) \u2014 treat any figure derived from it as covering a minority of records. Month names mix abbreviated and full forms; normalised to full names, with a companion ordinal column for chronological sorting.",
+    "Actual Collection Month": "The month collection was ACTUALLY received. Month when payment was received. Free text column (text). Populated in 0 of 176 rows (0%). Mostly empty (100% missing) \u2014 treat any figure derived from it as covering a minority of records.",
+    "WO Status (billed)": "Open/closed state of the work order billing. Category column (text). Populated in 102 of 176 rows (58%). Allowed values: Open, Closed.",
+    "Collection status": "Payment collection state. Free text column (text). Populated in 0 of 176 rows (0%). Mostly empty (100% missing) \u2014 treat any figure derived from it as covering a minority of records.",
+    "Collection Date": "The exact date collection was received (stored as text). Date when payment is expected to be collected. Free text column (text). Populated in 0 of 176 rows (0%). Mostly empty (100% missing) \u2014 treat any figure derived from it as covering a minority of records.",
+    "Billing Status": "Billing progress of the work order. Category column (text). Populated in 28 of 176 rows (16%). Allowed values: Update Required, Partially Billed, BIlled, Not Billable, Stuck. Mostly empty (84% missing) \u2014 treat any figure derived from it as covering a minority of records."
+  },
+  "reading": {
+    "name": {
+      "column": "name",
+      "meaning": "Work order or project name.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Customer Name Code": {
+      "column": "Customer Name Code",
+      "meaning": "Coded identifier of the client company.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Serial #": {
+      "column": "Serial #",
+      "meaning": "Unique serial identifier for the work order deal.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Nature of Work": {
+      "column": "Nature of Work",
+      "meaning": "Type of engagement, e.g. one-time project or contract.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Last executed month of recurring project": {
+      "column": "Last executed month of recurring project",
+      "meaning": "Most recent month the recurring project was executed.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Execution Status": {
+      "column": "Execution Status",
+      "meaning": "Current execution state of the work order.",
+      "role": "status",
+      "semantic_type": null,
+      "caution": null
+    },
+    "Data Delivery Date": {
+      "column": "Data Delivery Date",
+      "meaning": "Date the deliverable data is due or delivered.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Date of PO/LOI": {
+      "column": "Date of PO/LOI",
+      "meaning": "Date the purchase order or LOI was issued.",
+      "role": "date_created",
+      "semantic_type": null,
+      "caution": null
+    },
+    "Document Type": {
+      "column": "Document Type",
+      "meaning": "Kind of confirmation document received.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Probable Start Date": {
+      "column": "Probable Start Date",
+      "meaning": "Expected start date of the work.",
+      "role": "date_start",
+      "semantic_type": null,
+      "caution": null
+    },
+    "Probable End Date": {
+      "column": "Probable End Date",
+      "meaning": "Expected end date of the work.",
+      "role": "date_end",
+      "semantic_type": null,
+      "caution": null
+    },
+    "BD/KAM Personnel code": {
+      "column": "BD/KAM Personnel code",
+      "meaning": "Coded owner responsible for the account.",
+      "role": "owner",
+      "semantic_type": null,
+      "caution": null
+    },
+    "Sector": {
+      "column": "Sector",
+      "meaning": "Industry vertical of the work order.",
+      "role": "sector",
+      "semantic_type": null,
+      "caution": null
+    },
+    "Type of Work": {
+      "column": "Type of Work",
+      "meaning": "Service type performed, e.g. survey or inspection.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Is any Skylark software platform part of the client deliverables in this deal?": {
+      "column": "Is any Skylark software platform part of the client deliverables in this deal?",
+      "meaning": "Which Skylark software platforms are included in deliverables.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Last invoice date": {
+      "column": "Last invoice date",
+      "meaning": "Date of the most recent invoice raised.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "latest invoice no.": {
+      "column": "latest invoice no.",
+      "meaning": "Identifier of the most recent invoice.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Amount in Rupees (Excl of GST) (Masked)": {
+      "column": "Amount in Rupees (Excl of GST) (Masked)",
+      "meaning": "Deal value excluding GST.",
+      "role": "revenue_contracted",
+      "semantic_type": null,
+      "caution": null
+    },
+    "Amount in Rupees (Incl of GST) (Masked)": {
+      "column": "Amount in Rupees (Incl of GST) (Masked)",
+      "meaning": "Deal value including GST.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Billed Value in Rupees (Excl of GST.) (Masked)": {
+      "column": "Billed Value in Rupees (Excl of GST.) (Masked)",
+      "meaning": "Amount billed so far excluding GST.",
+      "role": "revenue_billed",
+      "semantic_type": null,
+      "caution": null
+    },
+    "Billed Value in Rupees (Incl of GST.) (Masked)": {
+      "column": "Billed Value in Rupees (Incl of GST.) (Masked)",
+      "meaning": "Amount billed so far including GST.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Collected Amount in Rupees (Incl of GST.) (Masked)": {
+      "column": "Collected Amount in Rupees (Incl of GST.) (Masked)",
+      "meaning": "Payment collected including GST.",
+      "role": "revenue_collected",
+      "semantic_type": null,
+      "caution": null
+    },
+    "Amount to be billed in Rs. (Exl. of GST) (Masked)": {
+      "column": "Amount to be billed in Rs. (Exl. of GST) (Masked)",
+      "meaning": "Outstanding amount yet to be billed excluding GST.",
+      "role": "receivable",
+      "semantic_type": null,
+      "caution": null
+    },
+    "Amount to be billed in Rs. (Incl. of GST) (Masked)": {
+      "column": "Amount to be billed in Rs. (Incl. of GST) (Masked)",
+      "meaning": "Outstanding amount yet to be billed including GST.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Amount Receivable (Masked)": {
+      "column": "Amount Receivable (Masked)",
+      "meaning": "Outstanding amount owed per work order.",
+      "role": "receivable",
+      "semantic_type": null,
+      "caution": null
+    },
+    "AR Priority account": {
+      "column": "AR Priority account",
+      "meaning": "Flags accounts marked as collection priority.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Quantity by Ops": {
+      "column": "Quantity by Ops",
+      "meaning": "Quantity recorded by operations for the work order.",
+      "role": "quantity",
+      "semantic_type": null,
+      "caution": null
+    },
+    "Quantities as per PO": {
+      "column": "Quantities as per PO",
+      "meaning": "Contracted quantity stated on the purchase order.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Quantity billed (till date)": {
+      "column": "Quantity billed (till date)",
+      "meaning": "Quantity invoiced to date.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Balance in quantity": {
+      "column": "Balance in quantity",
+      "meaning": "Remaining quantity yet to be billed.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Invoice Status": {
+      "column": "Invoice Status",
+      "meaning": "Billing progress of the work order.",
+      "role": "status",
+      "semantic_type": null,
+      "caution": null
+    },
+    "Expected Billing Month": {
+      "column": "Expected Billing Month",
+      "meaning": "Planned month of billing.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Actual Billing Month": {
+      "column": "Actual Billing Month",
+      "meaning": "Month when billing actually occurred.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Actual Collection Month": {
+      "column": "Actual Collection Month",
+      "meaning": "Month when payment was received.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "WO Status (billed)": {
+      "column": "WO Status (billed)",
+      "meaning": "Open/closed state of the work order billing.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Collection status": {
+      "column": "Collection status",
+      "meaning": "Payment collection state.",
+      "role": null,
+      "semantic_type": null,
+      "caution": null
+    },
+    "Collection Date": {
+      "column": "Collection Date",
+      "meaning": "Date when payment is expected to be collected.",
+      "role": "date_close_expected",
+      "semantic_type": null,
+      "caution": null
+    },
+    "Billing Status": {
+      "column": "Billing Status",
+      "meaning": "Billing progress of the work order.",
+      "role": "status",
+      "semantic_type": null,
+      "caution": null
+    }
+  },
+  "overrides": {}
+}
